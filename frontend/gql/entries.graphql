@@ -1,0 +1,7 @@
+query entries {
+  entries: entries {
+    uid
+    id
+    title
+  }
+}

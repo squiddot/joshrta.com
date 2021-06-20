@@ -1,0 +1,17 @@
+{
+  "name": "Craft Nuxt GraphQL Schema",
+  "schemaPath": "./gql/.schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "dev": {
+        "name": "dev (http://api-REPONAME.test)",
+        "url": "http://api-REPONAME.test",
+        "headers": {
+          "user-agent": "JS GraphQL",
+          "Authorization": "Bearer CRAFT_GRAPHQL_TOKEN"
+        },
+        "introspect": true
+      }
+    }
+  }
+}

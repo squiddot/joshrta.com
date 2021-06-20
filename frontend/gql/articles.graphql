@@ -1,0 +1,22 @@
+query gqlArticles {
+  articles: entries(section: "blog") {
+    uid
+    id
+    slug
+    title
+    ... on blog_article_Entry {
+      itemCopy
+    }
+  }
+}
+
+query gqlArticle($slug: [String]) {
+  article: entry(section: "blog", slug: $slug) {
+    uid
+    id
+    title
+    ... on blog_article_Entry {
+      itemCopy
+    }
+  }
+}

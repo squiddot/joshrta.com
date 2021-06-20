@@ -1,0 +1,7 @@
+query search($search: String) {
+  results: entries(search: $search) {
+    id
+    title
+    searchScore
+  }
+}

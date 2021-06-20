@@ -1,0 +1,13 @@
+$name: '.page';
+
+#{$name}-enter-active,
+#{$name}-leave-active {
+  transition-duration: 250ms;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+#{$name}-enter,
+#{$name}-leave-active {
+  opacity: 0;
+}

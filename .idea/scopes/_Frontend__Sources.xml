@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="[Frontend] Sources" pattern="(file[nuxt-scaffold]:frontend/pages//*||file[nuxt-scaffold]:frontend/assets//*||file[nuxt-scaffold]:frontend/gql//*||file[nuxt-scaffold]:frontend/components//*||file[nuxt-scaffold]:frontend/scss//*||file[nuxt-scaffold]:frontend/layouts//*||file[nuxt-scaffold]:frontend/store//*)&amp;&amp;!file:frontend/gql/.schema.graphql" />
+</component>

@@ -1,0 +1,32 @@
+# Idea User-specific stuff:
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+**/.idea/dictionaries
+**/.idea/vcs.xml
+**/.idea/jsLibraryMappings.xml
+
+# Idea commit Shelf
+**/.idea/shelf/
+
+# Idea Sensitive or high-churn files:
+**/.idea/dataSources/
+**/.idea/dataSources.ids
+**/.idea/dataSources.xml
+**/.idea/dataSources.local.xml
+**/.idea/sqlDataSources.xml
+**/.idea/dynamic.xml
+**/.idea/uiDesigner.xml
+
+# Idea File-based project format:
+*.iws
+
+# macOS
+.DS_Storenode_modules/
+
+# Basics
+node_modules/
+vendor/
+.nuxt/
+.env
+.graphqlconfig
+.schema.graphql

@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="[Frontend] Config" pattern="file[nuxt-scaffold]:frontend/middleware//*||file[nuxt-scaffold]:frontend/plugins//*||file[nuxt-scaffold]:frontend/apollo//*||file:frontend/nuxt.config.js" />
+</component>

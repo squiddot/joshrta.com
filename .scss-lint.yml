@@ -1,0 +1,15 @@
+linters:
+  SelectorFormat:
+    enabled: false
+  SelectorDepth:
+    enabled: false
+  PropertySortOrder:
+    enabled: false
+  PseudoElement:
+    enabled: false
+  LeadingZero:
+    enabled: false
+  NestingDepth:
+    enabled: false
+  SpaceBeforeBrace:
+    enabled: false

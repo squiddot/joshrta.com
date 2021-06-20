@@ -1,0 +1,12 @@
+query gqlRedirect($siteId: Int, $uri: String) {
+  redirect: retour(siteId: $siteId, uri: $uri) {
+    ... on RetourType {
+      destUrl: redirectDestUrl
+      httpCode: redirectHttpCode
+      matchType: redirectMatchType
+      srcMatch: redirectSrcMatch
+      srcUrl: redirectSrcUrl
+      srcUrlParsed: redirectSrcUrlParsed
+    }
+  }
+}

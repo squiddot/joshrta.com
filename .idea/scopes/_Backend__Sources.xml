@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="[Backend] Sources" pattern="file[nuxt-scaffold]:backend/modules//*||file[nuxt-scaffold]:backend/templates//*" />
+</component>

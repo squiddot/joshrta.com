@@ -1,0 +1,14 @@
+query pages {
+  pages: entries(section: "pages", level: 1) {
+    uri
+    title
+    children {
+      uri
+      title
+      children {
+        uri
+        title
+      }
+    }
+  }
+}
