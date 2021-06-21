@@ -1,9 +1,9 @@
 module.exports = {
   apps: [
     {
-      name: 'REPONAME-stage',
+      name: 'joshrta-stage',
       instances: 1,
-      script: './node_modules/.bin/REPONAME',
+      script: './node_modules/.bin/joshrta',
       args: 'start --port 3101',
     },
   ],

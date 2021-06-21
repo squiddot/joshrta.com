@@ -1,12 +1,12 @@
-query navigation($navHandle: String){
-  nodes (navHandle: $navHandle, level: 1) {
-    title
-    url
-    level
-    children {
-      id
-      title
-      url
-    }
-  }
-}
+#query navigation($navHandle: String){
+#  nodes (navHandle: $navHandle, level: 1) {
+#    title
+#    url
+#    level
+#    children {
+#      id
+#      title
+#      url
+#    }
+#  }
+#}

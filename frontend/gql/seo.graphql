@@ -1,9 +1,9 @@
-query gqlSEO($siteId: Int) {
-  seomatic(asArray: true, siteId: $siteId) {
-    metaTagContainer
-    metaLinkContainer
-    metaTitleContainer
-    metaScriptContainer
-    metaJsonLdContainer
-  }
-}
+#query gqlSEO($siteId: Int) {
+#  seomatic(asArray: true, siteId: $siteId) {
+#    metaTagContainer
+#    metaLinkContainer
+#    metaTitleContainer
+#    metaScriptContainer
+#    metaJsonLdContainer
+#  }
+#}

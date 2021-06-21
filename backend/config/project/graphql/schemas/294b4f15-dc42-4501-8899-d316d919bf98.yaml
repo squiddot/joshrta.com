@@ -1,0 +1,12 @@
+isPublic: false
+name: Frontend
+scope:
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.91ac8d54-866f-4fb9-a818-4d19519e6f70:read' # Pages
+  - 'entrytypes.ab728ab3-2386-495f-820d-abc8762a9f0d:read' # Pages
+  - 'globalsets.bb98d153-53dd-49d2-acf6-0d04fb52d8f2:read' # Globals
+  - 'seomatic.all:read'
+  - 'navigationNavs.all:read'
+  - 'navigationNavs.ab9a3265-d2cf-4fc3-bf37-dc1154b1eb2a:read' # Main

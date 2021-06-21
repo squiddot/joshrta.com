@@ -1,0 +1,28 @@
+handle: main
+instructions: ''
+maxNodes: ''
+name: Main
+permissions:
+  craft\elements\Asset:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Category:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Entry:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Tag:
+    enabled: ''
+    permissions: '*'
+  custom:
+    enabled: '1'
+  verbb\navigation\nodetypes\PassiveType:
+    enabled: '1'
+propagateNodes: false
+siteSettings:
+  9d1b20eb-8897-4a63-8ceb-500af85de97e: null # Api Joshrta
+sortOrder: 1
+structure:
+  maxLevels: null
+  uid: 1ee72f6e-607e-4a3e-b9fe-61fb70e6fcbf

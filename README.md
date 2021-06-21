@@ -24,26 +24,26 @@ TODO- Grab buddy file for repo
 1. Clone that repo.
 1. `git branch develop`
 1. `git checkout develop`
-1. Replace all instances of `REPONAME` with the new repo name.
+1. Replace all instances of `joshrta` with the new repo name.
 1. Edit the .env.example file with the information for the project. (Both frontend and backend files)
 1. Make a copy of both .env.example files. Remove the .example part of the name. Do not add these to git.
 1. cd to `backend`
-1. `valet link api-REPONAME`
+1. `valet link api-joshrta`
 1. `composer install`
 1. Create the db.
 ### Setup Craft Backend
-1. navigate to api-REPONAME.test
-1. Create the account - probably using some form of design+REPONAME@pennebaker.com, the same email, and a password from 1pass.
+1. navigate to api-joshrta.test
+1. Create the account - probably using some form of design+joshrta@pennebaker.com, the same email, and a password from 1pass.
 1. Save the info in 1pass.
 1. Go into Plugin Store and Upgrade Craft CMS to Pro.
 1. navigate to GraphQL in sidebar.
 1. Create a new schema, call it Frontend
-1. Create a new token, call it REPONAME
+1. Create a new token, call it joshrta
 1. Click Regenerate to refresh the token, then copy and paste (and save).
 1. Remove this section from the readme.
 ***
 
-#`REPONAME`
+#`joshrta`
 In order to spin up this repo, you need to spin up both the back end and the front end.
 
 # On First Clone
@@ -52,18 +52,18 @@ In order to spin up this repo, you need to spin up both the back end and the fro
 1. Make sure to `git checkout develop`
 ## BACKEND Setup
 1. cd to `backend`
-1. `valet link api-REPONAME`
+1. `valet link api-joshrta`
 1. `composer install`
 
 ### If the database does not exist:
 
-1. create the database `REPONAME_db_test`
+1. create the database `joshrta_db_test`
 1. copy the contents of `.env.example` to a new file, `.env`
-1. Double check `DB_DSN="mysql:host=127.0.0.1;port=3306;dbname=REPONAME_db_test;"`
+1. Double check `DB_DSN="mysql:host=127.0.0.1;port=3306;dbname=joshrta_db_test;"`
 1. Visit your mailtrap.io demo inbox to find your username and password for the SMTP, use in next step.
 1. update the following lines:\
    `SECURITY_KEY` - Doesn't matter for now. Type anything.\
-   `BACKEND_SITE_URL` - `BACKEND_SITE_URL="http://api-REPONAME.test"`\
+   `BACKEND_SITE_URL` - `BACKEND_SITE_URL="http://api-joshrta.test"`\
    `SMTP_USER` - Username from demo inbox.\
    `SMTP_PASS` - Password from demo inbox.\
    Also get S3 and Cloudfront info from someone.
@@ -75,10 +75,10 @@ In order to spin up this repo, you need to spin up both the back end and the fro
 1. copy the contents of `.env.example` to a new file, `.env`
 1. update the following lines:
     ```
-    GRAPHQL_URL=http://api-REPONAME.test
-    BACKEND_URL=http://api-REPONAME.test
+    GRAPHQL_URL=http://api-joshrta.test
+    BACKEND_URL=http://api-joshrta.test
     ```
-1. Login to `http://api-REPONAME.test/admin` with the login from onepass.
+1. Login to `http://api-joshrta.test/admin` with the login from onepass.
 1. copy the contents of `.graphqlconfig.example` to a new file, `.graphqlconfig`
 1. Get grapqhl token (You don't need "Authorization: Bearer", just the alphanumeric code)\
 1. Add to:

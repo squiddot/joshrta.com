@@ -4,8 +4,8 @@
   "extensions": {
     "endpoints": {
       "dev": {
-        "name": "dev (http://api-REPONAME.test)",
-        "url": "http://api-REPONAME.test",
+        "name": "dev (http://api-joshrta.test)",
+        "url": "http://api-joshrta.test",
         "headers": {
           "user-agent": "JS GraphQL",
           "Authorization": "Bearer CRAFT_GRAPHQL_TOKEN"

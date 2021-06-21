@@ -67,7 +67,6 @@ export default {
   plugins: [
     '~/plugins/additional-scripts',
     { src: '~/plugins/aos', ssr: false }, // No need to run animations on the server
-    '~/plugins/brand-colors',
     '~/plugins/card-helpers',
     '~/plugins/choices.client',
     '~/plugins/cloak',

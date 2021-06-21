@@ -1,0 +1,26 @@
+enableVersioning: true
+handle: pages
+name: Pages
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  9d1b20eb-8897-4a63-8ceb-500af85de97e: # Api Joshrta
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: 'pages/{slug}'
+structure:
+  maxLevels: null
+  uid: 6d7cf36d-5a49-4798-ad6c-3e8d9b755b13
+type: structure

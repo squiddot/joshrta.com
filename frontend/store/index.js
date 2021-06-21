@@ -30,12 +30,10 @@ export const actions = {
   // called by nuxt on the server
   async nuxtServerInit({ dispatch }) {
     // populate the globals
-    await dispatch('globals/populate')
-
+    // await dispatch('globals/populate')
     // populate the navigation
-    await dispatch('navigation/populate')
-
+    // await dispatch('navigation/populate')
     // populate the seo
-    await dispatch('seo/populate')
+    // await dispatch('seo/populate')
   },
 }

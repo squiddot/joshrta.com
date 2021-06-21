@@ -1,7 +1,7 @@
 {
-  "name": "REPONAME",
+  "name": "joshrta",
   "version": "1.0.0",
-  "description": "REPONAME",
+  "description": "joshrta",
   "author": "Pennebaker",
   "private": true,
   "scripts": {
@@ -13,8 +13,7 @@
     "test": "jest"
   },
   "lint-staged": {
-    "*.{js,vue}": "yarn lint",
-    "*.{css,vue}": "stylelint"
+    "*.{js,vue}": "yarn lint"
   },
   "husky": {
     "hooks": {
@@ -78,7 +77,6 @@
     "prettier": "^1.19.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
-    "stylelint": "^10.1.0",
     "vue-jest": "^3.0.7"
   }
 }
