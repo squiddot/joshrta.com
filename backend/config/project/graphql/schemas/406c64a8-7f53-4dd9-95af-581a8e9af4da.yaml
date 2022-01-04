@@ -1,0 +1,5 @@
+isPublic: false
+name: Frontend
+scope:
+  - 'sections.b75e7bba-befa-4616-bf09-132404eb6bc4:read' # Homepage
+  - 'entrytypes.49f48feb-096e-4790-a9f9-302f90ee1319:read' # Homepage

@@ -1,4 +1,4 @@
-dateModified: 1640230192
+dateModified: 1641331950
 email:
   fromEmail: taylor+joshrta@ellcreative.com
   fromName: Nuxt
@@ -7,9 +7,11 @@ meta:
   __names__:
     0e9e8e70-b33b-4e96-a929-3d91403fe357: Common # Common
     4b5e9bac-e110-44bb-b97a-464e2579808e: 'Public Schema' # Public Schema
+    49f48feb-096e-4790-a9f9-302f90ee1319: Homepage # Homepage
     83f8fd19-c72d-4ed5-898f-a68863ca0bb8: Nuxt # Nuxt
     406c64a8-7f53-4dd9-95af-581a8e9af4da: Frontend # Frontend
     7338475d-af45-482f-9b45-f2271b66a559: Nuxt # Nuxt
+    b75e7bba-befa-4616-bf09-132404eb6bc4: Homepage # Homepage
 plugins:
   cloner:
     edition: standard
@@ -32,7 +34,7 @@ plugins:
         __assoc__:
           -
             - 12a9fd82-dcd7-41d8-b81c-aaf5b7632ebc
-            - W3sibGFiZWwiOiJEYXNoYm9hcmQiLCJ1cmwiOiJkYXNoYm9hcmQiLCJmb250SWNvbiI6ImdhdWdlIn0seyJsYWJlbCI6IlVzZXJzIiwidXJsIjoidXNlcnMiLCJmb250SWNvbiI6InVzZXJzIn0seyJsYWJlbCI6IkZpZWxkIE1hbmFnZXIiLCJ1cmwiOiJmaWVsZC1tYW5hZ2VyIiwiaWNvbiI6Ii9hcHAvdmVuZG9yL3ZlcmJiL2ZpZWxkLW1hbmFnZXIvc3JjL2ljb24tbWFzay5zdmcifSx7ImxhYmVsIjoiR3JhcGhRTCIsInVybCI6ImdyYXBocWwiLCJpY29uIjoiQGFwcGljb25zL2dyYXBocWwuc3ZnIiwic3VibmF2Ijp7InNjaGVtYXMiOnsibGFiZWwiOiJTY2hlbWFzIiwidXJsIjoiZ3JhcGhxbC9zY2hlbWFzIn0sInRva2VucyI6eyJsYWJlbCI6IlRva2VucyIsInVybCI6ImdyYXBocWwvdG9rZW5zIn0sImdyYXBoaXFsIjp7ImxhYmVsIjoiR3JhcGhpUUwiLCJ1cmwiOiJncmFwaGlxbCIsImV4dGVybmFsIjp0cnVlfX19LHsidXJsIjoidXRpbGl0aWVzIiwibGFiZWwiOiJVdGlsaXRpZXMiLCJmb250SWNvbiI6InRvb2wiLCJiYWRnZUNvdW50IjozfSx7InVybCI6InNldHRpbmdzIiwibGFiZWwiOiJTZXR0aW5ncyIsImZvbnRJY29uIjoic2V0dGluZ3MifSx7InVybCI6InBsdWdpbi1zdG9yZSIsImxhYmVsIjoiUGx1Z2luIFN0b3JlIiwiZm9udEljb24iOiJwbHVnaW4ifV0=
+            - W3sibGFiZWwiOiJEYXNoYm9hcmQiLCJ1cmwiOiJkYXNoYm9hcmQiLCJmb250SWNvbiI6ImdhdWdlIn0seyJsYWJlbCI6IkVudHJpZXMiLCJ1cmwiOiJlbnRyaWVzIiwiZm9udEljb24iOiJzZWN0aW9uIn0seyJsYWJlbCI6IlVzZXJzIiwidXJsIjoidXNlcnMiLCJmb250SWNvbiI6InVzZXJzIn0seyJsYWJlbCI6IkZpZWxkIE1hbmFnZXIiLCJ1cmwiOiJmaWVsZC1tYW5hZ2VyIiwiaWNvbiI6Ii9hcHAvdmVuZG9yL3ZlcmJiL2ZpZWxkLW1hbmFnZXIvc3JjL2ljb24tbWFzay5zdmcifSx7ImxhYmVsIjoiR3JhcGhRTCIsInVybCI6ImdyYXBocWwiLCJpY29uIjoiQGFwcGljb25zL2dyYXBocWwuc3ZnIiwic3VibmF2Ijp7InNjaGVtYXMiOnsibGFiZWwiOiJTY2hlbWFzIiwidXJsIjoiZ3JhcGhxbC9zY2hlbWFzIn0sInRva2VucyI6eyJsYWJlbCI6IlRva2VucyIsInVybCI6ImdyYXBocWwvdG9rZW5zIn0sImdyYXBoaXFsIjp7ImxhYmVsIjoiR3JhcGhpUUwiLCJ1cmwiOiJncmFwaGlxbCIsImV4dGVybmFsIjp0cnVlfX19LHsidXJsIjoidXRpbGl0aWVzIiwibGFiZWwiOiJVdGlsaXRpZXMiLCJmb250SWNvbiI6InRvb2wiLCJiYWRnZUNvdW50Ijo0fSx7InVybCI6InNldHRpbmdzIiwibGFiZWwiOiJTZXR0aW5ncyIsImZvbnRJY29uIjoic2V0dGluZ3MifSx7InVybCI6InBsdWdpbi1zdG9yZSIsImxhYmVsIjoiUGx1Z2luIFN0b3JlIiwiZm9udEljb24iOiJwbHVnaW4ifV0=
   default-dashboard:
     edition: standard
     enabled: true
