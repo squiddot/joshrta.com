@@ -1,10 +1,10 @@
 module.exports = {
   apps: [
     {
-      name: 'REPONAME',
+      name: 'joshrta',
       exec_mode: 'cluster',
       instances: 2,
-      script: './node_modules/.bin/REPONAME',
+      script: './node_modules/.bin/joshrta',
       args: 'start --port 3001',
     },
   ],
